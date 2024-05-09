@@ -1,0 +1,66 @@
+
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note-input {
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  width: 81%;
+  padding: 8px;
+  margin-right: 10px;
+}
+.del{
+  float: right;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+ 
+}
+.del:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transform: translateY(-5px);
+  transition: all 0.4s;
+}
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 1rem;
+  box-shadow: 1px 1px 4px 1px #000000;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  
+}
+
+
+
+h1{
+  text-align: center;
+  width: auto;
+}
